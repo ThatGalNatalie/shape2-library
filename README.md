@@ -14,14 +14,15 @@ npm install --save shape-library
 
 ```jsx
 import React from 'react'
+import { Shape } from 'shape-library'
 
-import Shape from 'shape-library'
-
-class Example extends Component {
-  render() {
-    return <Shape type='icons' id='123' />
-  }
+const App () => {
+  return (
+    <Shape type='icons' id='123' />
+  )
 }
+
+export default App;
 ```
 
 ## License
