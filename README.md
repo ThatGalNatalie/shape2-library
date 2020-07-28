@@ -6,21 +6,20 @@
 
 ## Install
 
-```bash
+<!-- ```bash
 npm install --save shape-library
-```
+``` -->
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'shape-library'
-import 'shape-library/dist/index.css'
+import Shape from 'shape-library'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Shape type='icons' id='123' />
   }
 }
 ```
