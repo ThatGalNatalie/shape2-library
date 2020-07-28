@@ -49,5 +49,10 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "contentful": "^7.14.6",
+    "html-react-parser": "^0.13.0",
+    "react-lottie": "^1.2.3"
+  }
 }
